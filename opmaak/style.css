@@ -1,0 +1,91 @@
+table.personen th { 
+    border: 3px solid gray;
+  } 
+  table.personen td { 
+    border: 3px solid gray;
+    color: orange;
+    background-color: #8b0000;
+  } 
+  
+  table.personen { 
+    border-collapse: collapse;
+  } 
+  
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: red;
+  }
+
+  
+  body {
+    color:
+  }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h2 {
+  color: red;
+}
+
+ul#henkEigenschappen {
+  color: orangered;
+  font-family: 'Brush Script MT';
+}
+
+ul#henkEigenschappen {
+  border-radius: 100px;
+  background: green;
+  width: 150px;
+  height: 70px;  
+}
